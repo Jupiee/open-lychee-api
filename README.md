@@ -1,4 +1,4 @@
-<h1 align="center">Lychee Scraper</h1>
+<h1 align="center">Lychee API</h1>
 
 <p>This repository contains the source code for Lychee API</p>
 <p>The code works the same as mentioned in <a>https://lychee-engine.xyz/about</a></p>
