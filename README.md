@@ -8,7 +8,8 @@
 Route | Description | Example
 ------|-------------|--------
 index | returns the number of documents | ```localhost:3000/index```
-search | returns the search results | ```localhost:3000/search?name=pokemon&platform=Gameboy Advance```
+linearsearch | returns the search results | ```localhost:3000/linearsearch?name=pokemon&platform=Gameboy Advance```
+indexedsearch | returns the search results | ```localhost:3000/indexedsearch?name=pokemon&platform=Gameboy Advance```
 
 <h4>Search Parameters</h4>
 

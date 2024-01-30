@@ -1,13 +1,10 @@
-use crate::routes::game_item::Item;
+use crate::routes::Cache;
 
 use axum::extract::State;
 
-use std::sync::{Arc, Mutex};
-use std::collections::HashMap;
+pub async fn index(State(cache): State<Cache>) -> String {
 
-pub async fn index(State(cache): State<Arc<Mutex<HashMap<String, Item>>>>) -> String {
-
-    let count= cache.lock().unwrap().len();
+    let count= cache.unindexed_cache.lock().unwrap().len();
 
     return format!("Roms indexed: {}", count);
 
