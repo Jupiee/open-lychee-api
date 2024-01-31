@@ -36,7 +36,7 @@ pub async fn run() -> axum::routing::Router {
 
 async fn fetch_games() -> Result<Vec<Item>, Box<dyn Error>> {
 
-    let uri= "mongodb+srv://LycheeAPI:lycheeengine@cluster0.np31lmg.mongodb.net/?retryWrites=true&w=majority";
+    let uri= "YOUR_MONGODB_URI";
 
     let client_options= ClientOptions::parse_with_resolver_config(uri, ResolverConfig::cloudflare()).await?;
     let client= Client::with_options(client_options)?;
