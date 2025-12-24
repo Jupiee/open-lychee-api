@@ -1,7 +1,10 @@
 <h1 align="center">Lychee API</h1>
 
+> [!WARNING]
+> The API is currently down at <a>https://lychee-engine.pages.dev/</a> because it was hosted on the community tier of <a>https://www.shuttle.dev/</a> which they have sunsetted. I have no plans for further maintaining the API anytime soon so feel free to fork it and modify on your own.
+
 <p>This repository contains the source code for Lychee API</p>
-<p>The code works the same as mentioned in <a>https://lychee-engine.xyz/about</a></p>
+<p>The code works the same as mentioned in <a>https://lychee-engine.pages.dev/</a></p>
 
 <h3>Endpoints</h3>
 
